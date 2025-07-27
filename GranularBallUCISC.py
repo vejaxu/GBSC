@@ -245,25 +245,22 @@ def gb_plot2(gbs, key):
 
 def main():
     key = "AC"
-    ress = 26
+    ress = 2
     sigmas = [0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32]
-    # sigmas = [1]
+    nmi_lst = []
+    ari_lst = []
+    f1_lst = []
+    time_lst = []
+    nmistdlst = []
+    aristdlst = []
+    f1stdlst = []
     
     for sigma in sigmas:
-        nmi_lst = []
-        ari_lst = []
-        f1_lst = []
-        time_lst = []
-        nmistdlst = []
-        aristdlst = []
-        f1stdlst = []
-        print(f"current dataset: {key}")
-        # for count in gamma_lst:
+        nmi_deta_lst = []
+        ari_deta_lst = []
+        f1_deta_lst = []
+        time_deta_lst = []
         for _ in range(10):
-            nmi_deta_lst = []
-            ari_deta_lst = []
-            f1_deta_lst = []
-            time_deta_lst = []
             gc.collect()
             pid = os.getpid()
             p = psutil.Process(pid)
@@ -291,7 +288,6 @@ def main():
                 affinity.append(temp)
             affinity = np.asarray(affinity)
             max_value = np.max(affinity)
-            print(f"最大值: {max_value}")
 
             start_time = time.time()
             clustering = SpectralClustering(n_clusters=ress,
