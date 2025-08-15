@@ -1,0 +1,367 @@
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 827 with accuracies 
+[1.50027050e-15 1.95047800e-05 2.78849901e-05 2.53502121e-05
+ 6.35332289e-05 4.13058255e-05 3.40173303e-05 4.44575035e-05
+ 4.57565493e-05 3.03027305e-05 3.38864264e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 788 instead with accuracy 
+3.290136832520888e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[3.27828713e-15 1.97180623e-05 2.80293193e-05 2.51337837e-05
+ 6.78306193e-05 3.79768892e-05 3.05389794e-05 4.33891973e-05
+ 3.34171219e-05 3.72990480e-05 3.85820308e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 791 with accuracies 
+[1.73995927e-15 1.71215508e-05 3.53069980e-05 2.42978886e-05
+ 2.36251911e-05 3.72236033e-05 3.58778410e-05 3.57676031e-05
+ 3.52030558e-05 5.07691336e-05 3.46840864e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 698 instead with accuracy 
+2.9064680922684006e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.56862686e-15 1.86354902e-05 3.66958678e-05 2.40958662e-05
+ 2.43193012e-05 3.85768162e-05 3.52058997e-05 3.59760937e-05
+ 3.55518488e-05 3.39366619e-05 3.67176443e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 685 with accuracies 
+[1.26925117e-15 2.30496379e-05 3.10793294e-05 3.05126827e-05
+ 4.38718218e-05 2.31630886e-05 3.19127456e-05 3.54059409e-05
+ 3.54900795e-05 4.74088467e-05 3.49359111e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 680 instead with accuracy 
+3.041459527105005e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.10641881e-15 2.27114073e-05 3.11128837e-05 3.07249757e-05
+ 4.31558968e-05 2.35917022e-05 3.19915406e-05 3.52110025e-05
+ 3.53329155e-05 4.38810005e-05 3.68472231e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 662 with accuracies 
+[1.87988303e-15 3.44747116e-05 4.20859371e-05 3.52378094e-05
+ 2.99993310e-05 3.01548318e-05 3.48386975e-05 4.55901470e-05
+ 3.43473549e-05 5.54515280e-05 3.31425008e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 646 instead with accuracy 
+3.3756119330830516e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.36062416e-15 3.41495283e-05 4.19997393e-05 3.54695739e-05
+ 2.99110281e-05 3.07683351e-05 3.51786233e-05 3.46465781e-05
+ 3.94000604e-05 5.54144785e-05 3.43793679e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 611 with accuracies 
+[1.85103380e-15 2.23318076e-05 2.44913257e-05 2.92530043e-05
+ 3.11895403e-05 3.30785014e-05 3.37581046e-05 3.52393311e-05
+ 5.71807982e-05 4.80733192e-05 3.66565628e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 602 instead with accuracy 
+3.1231507242366714e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.86402484e-15 2.23463201e-05 2.31756696e-05 2.85436508e-05
+ 3.08533548e-05 3.25229580e-05 3.28842518e-05 3.68217624e-05
+ 5.34775168e-05 4.14033548e-05 4.15177406e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 676 with accuracies 
+[1.50021055e-15 3.73817483e-05 2.66420918e-05 3.49422268e-05
+ 2.64565143e-05 3.52158597e-05 5.32762791e-05 3.24836523e-05
+ 4.82801782e-05 2.39403714e-05 3.61713463e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 639 instead with accuracy 
+3.190205387908288e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.87620779e-15 3.90760931e-05 2.30435389e-05 3.39127481e-05
+ 2.80613281e-05 3.51526246e-05 3.74665031e-05 4.23531195e-05
+ 4.38510115e-05 2.30169609e-05 4.49886657e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 678 with accuracies 
+[1.68680415e-15 2.73892747e-05 2.42853496e-05 2.60598697e-05
+ 4.36090061e-05 3.83967860e-05 3.27453721e-05 3.55036585e-05
+ 3.65466149e-05 6.30145655e-05 3.22336056e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 678 instead with accuracy 
+3.27076456964718e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[3.74756863e-15 2.73892757e-05 2.42853486e-05 2.60598698e-05
+ 4.36090060e-05 3.83967862e-05 3.27453720e-05 3.55036584e-05
+ 3.65466149e-05 6.30145673e-05 3.22336022e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 737 with accuracies 
+[1.57306784e-15 1.84858720e-05 2.12282202e-05 3.20922169e-05
+ 3.37233365e-05 5.01748216e-05 2.43143022e-05 3.24412596e-05
+ 3.48762300e-05 3.72767953e-05 3.55664738e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 737 instead with accuracy 
+2.9107229820136125e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[3.21993975e-15 1.84858718e-05 2.12282201e-05 3.20922166e-05
+ 3.37233370e-05 5.01748218e-05 2.43143017e-05 3.24412596e-05
+ 3.48762301e-05 3.72767953e-05 3.55664737e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 624 with accuracies 
+[1.70414325e-15 2.96876105e-05 1.61786225e-05 4.95269987e-05
+ 2.64165867e-05 4.91082231e-05 3.25295676e-05 3.53279379e-05
+ 4.09582447e-05 3.17496801e-05 3.66110155e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 624 instead with accuracy 
+3.164495340767177e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.07884660e-15 2.96876104e-05 1.61786228e-05 4.95269983e-05
+ 2.64165876e-05 4.91082230e-05 3.25295684e-05 3.53279372e-05
+ 4.09582449e-05 3.17496796e-05 3.66110158e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 700 with accuracies 
+[1.35683670e-15 2.52159183e-05 4.04637789e-05 4.00441611e-05
+ 4.74634035e-05 4.03783156e-05 2.78472902e-05 3.38862421e-05
+ 4.81873556e-05 3.64326148e-05 3.63323263e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+Use iteration 679 instead with accuracy 
+3.390418296477617e-05.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[2.01324797e-15 2.58949650e-05 4.05103357e-05 4.06123202e-05
+ 4.83967279e-05 3.95540069e-05 2.73004422e-05 3.44944753e-05
+ 4.15040350e-05 3.55627195e-05 3.91159848e-05]
+not reaching the requested tolerance 3.6656856536865234e-05.
+  _, diffusion_map = lobpcg(
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+data shape(11000, 256)
+target shape(11000,)
+nmi list: [0.0007153466170912049, 0.3258632504514614, 0.33738115245700456, 0.33482182709190267, 0.3326512013334545, 0.33316586333366294, 0.3331234566135375, 0.33097764713383215, 0.3318240022578414, 0.3313582366296782]
+ari list: [3.420202609827963e-08, 0.1655168802600801, 0.17964374732066876, 0.17537095803923547, 0.18221136282288936, 0.1836555794757181, 0.18370317542856646, 0.18518144750418716, 0.18444602335673588, 0.18269618965140366]
+f1 list: [0.01831250777828588, 0.22245816516275835, 0.34200207095842955, 0.3334605809665899, 0.3452679586530773, 0.3589908941917776, 0.35924153535828174, 0.3561597105059413, 0.3574332900915237, 0.35797796048768826]
+
+best index: 2
+
+best gamma: 0.25
+
+max nmi: 0.33738115245700456
+max ari: 0.18518144750418716
+max f1: 0.35924153535828174
+
+nmi std: [3.277266622108917e-05, 0.005028055607492588, 0.0019306394103618927, 0.00188352046597549, 0.0016541985566941365, 0.003219568740724507, 0.003631259084550967, 0.004297325468615995, 0.004879052421040803, 0.003925990526294068]
+ari std: [1.5942355544047487e-08, 0.0030958557910713345, 0.006086664313486175, 0.007843862534541127, 0.0020522809201883076, 0.004619596878272668, 0.004617428271080708, 0.0037815036111053793, 0.004729267490823277, 0.005495361799728396]
+f1 std: [0.0008425231690417429, 0.007968262528634511, 0.0059418595988747405, 0.022414028109197837, 0.013657170531265807, 0.00626438908536978, 0.0070657946759860105, 0.009257904441028707, 0.008286587432645981, 0.007873809907397345]
+
+average time: 197.34907508850097

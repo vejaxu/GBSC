@@ -68,7 +68,7 @@ def division_2_2(gb_list, n):
     gb_list_new_2 = []
     for gb in gb_list:
         """这里需要修改"""
-        if(len(gb) >= 8):
+        if(len(gb) >= 128): # spiral 16 default 8
            ball_1, ball_2 = spilt_ball_2(gb)
            density_parent = get_density_volume(gb)
            density_child_1 = get_density_volume(ball_1)

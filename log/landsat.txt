@@ -1,0 +1,248 @@
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[4.60215459e-15 1.05420932e-06 1.71338701e-06 7.11006899e-06
+ 8.34518779e-07 3.85338191e-06 3.86195569e-06]
+not reaching the requested tolerance 7.078051567077637e-06.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 1033 with accuracies 
+[8.25758581e-15 6.57579948e-07 4.37592233e-06 6.88300463e-06
+ 7.55809290e-06 5.68258524e-06 3.31159519e-06]
+not reaching the requested tolerance 7.078051567077637e-06.
+Use iteration 1016 instead with accuracy 
+3.956800815139129e-06.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[4.85605683e-15 6.25106055e-07 3.79271733e-06 7.71892422e-06
+ 7.02338450e-06 5.35577414e-06 3.18170059e-06]
+not reaching the requested tolerance 7.078051567077637e-06.
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited at iteration 949 with accuracies 
+[8.51516801e-14 2.45073321e-06 1.20160060e-06 7.86748752e-06
+ 6.56343436e-06 6.94772795e-06 6.38594043e-06]
+not reaching the requested tolerance 7.078051567077637e-06.
+Use iteration 949 instead with accuracy 
+4.48813202298686e-06.
+
+  _, diffusion_map = lobpcg(
+/usr/local/anaconda3/envs/xwj_fastsc/lib/python3.10/site-packages/sklearn/manifold/_spectral_embedding.py:455: UserWarning: Exited postprocessing with accuracies 
+[9.64951590e-15 2.41246044e-06 1.27314945e-06 7.86822409e-06
+ 6.55705030e-06 6.95052489e-06 6.38925071e-06]
+not reaching the requested tolerance 7.078051567077637e-06.
+  _, diffusion_map = lobpcg(
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+data shape(2000, 36)
+target shape(2000,)
+nmi list: [0.27361312850545594, 0.6427102183065078, 0.6183129151084179, 0.5887423841676849, 0.6094047068775116, 0.6139558995773242, 0.6142824265071001, 0.6144170226138342, 0.6144970988678791, 0.6127473978299521]
+ari list: [0.08993845226733653, 0.5935204788044971, 0.5308060487537734, 0.5045530513253984, 0.5057548037247737, 0.5215538100791643, 0.5250574244453837, 0.5275025235493433, 0.5253642822535518, 0.5299652787702623]
+f1 list: [0.22000805639154003, 0.5542306155627845, 0.6639830764425507, 0.5439524400786369, 0.6806607223607996, 0.6984290842802681, 0.701596027297307, 0.7076153577352825, 0.6966995947103466, 0.6956464734883288]
+
+best index: 1
+
+best gamma: 0.125
+
+max nmi: 0.6427102183065078
+max ari: 0.5935204788044971
+max f1: 0.7076153577352825
+
+nmi std: [0.03868527383597303, 0.0011634360289010084, 0.010951283090003002, 0.010696869702812752, 0.0008530414555442303, 0.0012921036847297035, 0.000621826504541978, 6.766194900273932e-05, 0.00023511587814924016, 0.0028687321347314982]
+ari std: [0.021685351226198402, 0.0010927956994693613, 0.024088146459204804, 0.013332095732461384, 0.00413592137200303, 0.0035679247987021935, 0.0011421667895367361, 0.001939984578543111, 0.00625042941561173, 0.008799405274010519]
+f1 std: [0.043976260022432025, 0.0007292945926439362, 0.012491096796679486, 0.0604466929377025, 0.0036785734043108, 0.003839126585350537, 0.00011768492561688992, 0.005264362817620652, 0.033016175306525605, 0.019975717595388885]
+
+average time: 0.45830621719360354
