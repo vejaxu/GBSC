@@ -244,8 +244,8 @@ def gb_plot2(gbs, key):
 
 
 def main():
-    key = "spam"
-    ress = 2
+    key = "one_gaussian_10_one_line_5_2"
+    ress = 3
     sigmas = [0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32]
     nmi_lst = []
     ari_lst = []

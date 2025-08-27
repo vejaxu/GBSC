@@ -67,8 +67,7 @@ def get_separation(gb1, gb2):
 def division_2_2(gb_list, n):
     gb_list_new_2 = []
     for gb in gb_list:
-        """这里需要修改"""
-        if(len(gb) >= 128): # spiral 16 default 8
+        if(len(gb) >= 8): # spiral 128 default 8 letters 128
            ball_1, ball_2 = spilt_ball_2(gb)
            density_parent = get_density_volume(gb)
            density_child_1 = get_density_volume(ball_1)
@@ -78,8 +77,7 @@ def division_2_2(gb_list, n):
            w2 = len(ball_2) / w
            w_child = (w1 * density_child_1 + w2 * density_child_2)
            t1 = ((density_child_1 > density_parent) & (density_child_2 > density_parent))
-           """这边记得恢复原样"""
-           t2 = (w_child > density_parent)
+           t2 = (w_child > density_parent) # default 1 RingG 0.01
            t3 = ((len(ball_1) > 4) & (len(ball_2) > 4))
            if (t2):
                gb_list_new_2.extend([ball_1, ball_2])
