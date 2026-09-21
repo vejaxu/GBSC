@@ -1,23 +1,76 @@
-# GBSC
-The cluster effect and clustering performance of spectral clustering are improved by using the particle center to construct the spectral clustering similarity matrix.
-# Files
-These program mainly containing:
-  - a  synthetic dataset and real dataset folder named "dataset".
-  - four python files
-# Requirements
-## Installation requirements (Python 3.8)
-  - Pycharm 
-  - Windows operating system
-  - scipy==1.8.1 
-  - matplotlib ==3.5.2
-  - numpy==1.23.1 
-  - psutil ==5.9.1 
-  - scikit-learn==1.1.1
-  - sklearn==0.0  
-  - pandas==1.4.3  
-  - seaborn==0.11.2   
-# Dataset Format
-  - The synthetic dataset is not labeled, and the format is csv. You need to call GranularBallSynthetic to generate a granular-ball.
-  - The format of the real dataset is mat. You need to call GranularBallUCI to generate a granular-ball.
-# Usage
-Run GranularBallSyntheticSC.py to obtain the results of the granular-ball based spectral clustering algorithm on the synthetic dataset, and run GranularBallUCISC.py to obtain the results of the granular-ballbased spectral clustering algorithm on the real dataset.
+# GBSC reproduction
+
+This repository provides one entry point for the GBSC experiments on the
+datasets in `../data/D-Spec`.
+
+## Environment
+
+All commands below use the `xwj_llm` conda environment:
+
+```bash
+conda run -n xwj_llm python main.py --help
+```
+
+## Experiment protocol
+
+- MinMax-normalize every feature and project the data to two dimensions with
+  PCA, following the released GBSC real-data code.
+- Generate granular balls with the released weighted-density and radius rules.
+- Search `delta = 2^p`, `p = -5, ..., 5`, once with seed 42.
+- Select by NMI, using ARI and Hungarian-aligned macro-F1 as tie breakers.
+- Re-run the selected delta with seeds `42, 3407, 4079, 2024, 0`.
+- Report population mean and standard deviation for NMI, ARI, macro-F1, and
+  end-to-end time (loading through predicted labels).
+
+The affinity follows the released code exactly:
+
+```text
+exp((radius_i + radius_j - center_distance) / (2 * delta**2))
+```
+
+This differs from the squared/clipped Gaussian distance printed in the paper,
+but it is the implementation that reproduces the published Pendigits values.
+
+For at most 6000 granular balls, the graph is fully connected. Larger datasets
+use a symmetric 30-nearest-neighbor graph because their dense affinity and
+eigendecomposition are not computationally feasible. The selected backend is
+recorded in every dataset summary and in `gbsc.csv`.
+
+## Commands
+
+Search parameters only:
+
+```bash
+conda run -n xwj_llm python main.py search --jobs 4
+```
+
+Reproduce five seeds from previously saved best parameters:
+
+```bash
+conda run -n xwj_llm python main.py reproduce --jobs 4
+```
+
+Search and reproduce in one command:
+
+```bash
+conda run -n xwj_llm python main.py all --jobs 4
+```
+
+Run a subset:
+
+```bash
+conda run -n xwj_llm python main.py all --datasets spiral pendigits --jobs 2
+```
+
+## Outputs
+
+Each dataset is written under `results/<dataset>/`:
+
+- `search.csv`: all 11 seed-42 search results;
+- `best_params.json`: selected delta, graph backend, and granular-ball count;
+- `best_labels_seed42.npy` / `.csv`: labels selected during seed-42 search;
+- `plots/clustering_result.jpg` and `plots/true_labels.jpg`;
+- `runs.csv`: the five fixed-seed runs;
+- `summary.json`: mean and standard deviation.
+
+The final aggregate, in the required dataset order, is `gbsc.csv`.
