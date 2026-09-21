@@ -56,6 +56,9 @@ DATASETS = {
     "MNIST": DATA_ROOT / "mnist.mat",
     "skin": DATA_ROOT / "skin.mat",
     "covertype": DATA_ROOT / "covertype.mat",
+    "one_gaussian_10_one_line_5_2": DATA_ROOT / "one_gaussian_10_one_line_5_2.mat",
+    "sparse_3_dense_3_dense_3": DATA_ROOT / "sparse_3_dense_3_dense_3.mat",
+    "sparse_8_dense_1_dense_1": DATA_ROOT / "sparse_8_dense_1_dense_1.mat",
 }
 
 
