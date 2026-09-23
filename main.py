@@ -37,10 +37,11 @@ from utils import clustering_metrics, format_value, load_dataset, plot_clusterin
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_ROOT = (PROJECT_ROOT / "../data/D-Spec").resolve()
+LARGE_DATA_ROOT = (PROJECT_ROOT / "../data/large_data").resolve()
 DEFAULT_OUTPUT_ROOT = PROJECT_ROOT / "results"
 SEEDS = (42, 3407, 4079, 2024, 0)
 DELTA_POWERS = tuple(range(-5, 6))
-DATASETS = {
+DSPEC_DATASETS = {
     "spiral": DATA_ROOT / "spiral.mat",
     "4C": DATA_ROOT / "4C.mat",
     "AC": DATA_ROOT / "AC.mat",
@@ -60,6 +61,14 @@ DATASETS = {
     "sparse_3_dense_3_dense_3": DATA_ROOT / "sparse_3_dense_3_dense_3.mat",
     "sparse_8_dense_1_dense_1": DATA_ROOT / "sparse_8_dense_1_dense_1.mat",
 }
+LARGE_DATASETS = {
+    "TB1M": LARGE_DATA_ROOT / "data_TB1M.mat",
+    "SF2M": LARGE_DATA_ROOT / "data_SF2M.mat",
+    "CC5M": LARGE_DATA_ROOT / "data_CC5M.mat",
+    "CG10M": LARGE_DATA_ROOT / "data_CG10M.mat",
+    "Flower20M": LARGE_DATA_ROOT / "data_Flower20M.mat",
+}
+DATASETS = {**DSPEC_DATASETS, **LARGE_DATASETS}
 
 
 @dataclass
